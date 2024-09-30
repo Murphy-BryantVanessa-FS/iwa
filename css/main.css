@@ -1,0 +1,162 @@
+/* Alternative Box Model */
+* {
+  box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  margin: 2rem;
+}
+
+#wrapper {
+  margin: auto;
+  width: 90%;
+}
+
+div.flex {
+  display: flex;
+  flex-direction: row;
+}
+
+h1 {
+  text-align: center;
+  font-size: 6rem;
+  font-family: "Playfair Display", sans-serif;
+  color: #122c73;
+  text-shadow: 5px 5px 2px #b08c3e;
+  background-color: #ebddd1;
+  width: 50%;
+  padding: 1.5rem;
+  border: 4px solid #122c73;
+  margin: auto;
+  border-radius: 2rem;
+  /* Figure out why box is shrinking and not the text when shrinking browser*/
+}
+
+img {
+  display: block;
+  margin: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  width: 20rem;
+}
+
+h2 {
+  font-family: "Playfair Display", sans-serif;
+  text-align: center;
+  color: #122c73;
+  background-color: #ebddd1;
+}
+
+h3 {
+  text-align: center;
+  font-family: "Playfair Display", sans-serif;
+  text-align: center;
+  color: #122c73;
+  background-color: #ebddd1;
+}
+
+p {
+  line-height: 1.5;
+  color: #122c73;
+  display: inline;
+}
+
+footer {
+  padding-top: 2rem;
+}
+
+/* Link Styles */
+a {
+  text-decoration: none;
+  color: #b08c3e;
+}
+
+a:hover {
+  color: #122c73;
+}
+
+/* List Styles */
+ul {
+  list-style: none;
+  padding-top: 5rem;
+  padding-left: 0rem;
+  padding-right: 0rem;
+  padding-bottom: 0rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* Forms Styles */
+form {
+  display: inline-block;
+  width: 70%;
+  border: 3px solid #122c73;
+  background-color: #ebddd1;
+  padding: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+label {
+  display: block;
+  padding: 0.3rem;
+  padding-top: 1rem;
+  color: #122c73;
+}
+
+textarea {
+  font-family: inherit;
+}
+
+input,
+textarea {
+  display: block;
+  width: 100%;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.2rem;
+  font-size: inherit;
+  color: #122c73;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+input[type="checkbox"] {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  color: #122c73;
+}
+
+#form-check > label {
+  display: inline-block;
+  padding-bottom: 1rem;
+}
+
+button {
+  background-color: white;
+  color: #122c73;
+  font-size: 1rem;
+  border: 2px solid #b08c3e;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #122c73;
+  color: #ebddd1;
+}
+
+div.form {
+  display: block;
+  text-align: center;
+}
